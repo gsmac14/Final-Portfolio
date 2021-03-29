@@ -7,40 +7,68 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio(){
     return(
-<div className="row row-cols-1 row-cols-md-2 g-4">
-  <div classname="col">
-    <div classname="card">
+<div className="row row-cols-1 row-cols-md-2 g-4" style={{padding: 100}}>
+  <div className="col"style={{paddingBottom : 100}} >
+    <div className="card h-100" >
       <img src={BurgerApp} className="card-img-top" alt="burger"/>
-      <div classname="card-body">
-        <h5 classname="card-title">Card title</h5>
-        <p classname="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <div className="card-body" >
+      <h5 class="card-title">Burger App</h5>
+                    <a
+      class="nav-link"
+      href="https://burgerappgm.herokuapp.com/"
+      >Burger App</a>
+      <a
+      class="nav-link"
+      href="https://github.com/gsmac14/BurgerApp"
+      ><i class="fab fa-github"></i>Github</a>
       </div>
     </div>
   </div>
-  <div classname="col">
-    <div classname="card">
+  <div className="col" style={{paddingBottom : 100}}>
+    <div className="card h-100 ">
     <img src={DocToGo} className="card-img-top" alt="doc"/>      
-    <div classname="card-body">
-        <h5 classname="card-title">Card title</h5>
-        <p classname="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <div className="card-body">
+    <h5 class="card-title">Doc-To-Go App</h5>
+                    <a
+      class="nav-link"
+      href="https://doctorgo.herokuapp.com/"
+      >Doc-To-Go App</a>
+      <a
+      class="nav-link"
+      href="https://github.com/gsmac14/DocToGo"
+      ><i class="fab fa-github"></i>Github</a>
       </div>
     </div>
   </div>
-  <div classname="col">
-    <div classname="card">
+  <div className="col">
+    <div className="card h-100">
     <img src={Project1} className="card-img-top" alt="project"/>       
-    <div classname="card-body">
-        <h5 classname="card-title">Card title</h5>
-        <p classname="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+    <div className="card-body">
+    <h5 class="card-title">Radio Search</h5>
+                      <a
+        class="nav-link"
+        href="https://gsmac14.github.io/Project1/"
+        >Radio App</a>
+        <a
+        class="nav-link"
+        href="https://github.com/gsmac14/Project1"
+        ><i class="fab fa-github"></i>Github</a>
       </div>
     </div>
   </div>
-  <div classname="col">
-    <div classname="card">
+  <div className="col">
+    <div className="card h-100">
     <img src={Weather} className="card-img-top" alt="weather"/>       
-    <div classname="card-body">
-        <h5 classname="card-title">Card title</h5>
-        <p classname="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <div className="card-body">
+    <h5 class="card-title">Weather App</h5>
+                    <a
+      class="nav-link"
+      href="https://gsmac14.github.io/WeatherAPI/"
+      >Weather App</a>
+      <a
+      class="nav-link"
+      href="https://github.com/gsmac14/WeatherAPI"
+      ><i class="fab fa-github"></i>Github</a>
       </div>
     </div>
   </div>

@@ -1,0 +1,15 @@
+.card{
+    margin-top: 50px;
+    border-color: black;
+    background-image: url("https://www.designbolts.com/wp-content/uploads/2012/12/Triangle-White-Seamless-Patterns.jpg");
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row{
+    margin: 50px;
+}
+
+.col{
+    margin: 100px;
+}

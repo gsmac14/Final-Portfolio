@@ -10,7 +10,10 @@ import mysql from "../../assest/images/mysql.png";
 import jquery from "../../assest/images/jquery.png";
 import api from "../../assest/images/api.png";
 
-const src = '/images/wireframe/image-text.png'
+
+
+//Used semantic ui please look up documentation
+
 
 const Landing = () => (
   <Segment size="huge" inverted color= "grey" tertiary floated="left" compact tertiary>

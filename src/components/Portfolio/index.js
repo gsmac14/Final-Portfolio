@@ -4,6 +4,7 @@ import DocToGo from "../../assest/images/DocToGo.png";
 import Project1 from "../../assest/images/project1.PNG";
 import Weather from "../../assest/images/Weather.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "."
 
 function Portfolio(){
     return(

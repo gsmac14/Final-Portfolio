@@ -4,44 +4,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Contact (){
 
     return(
-<div id="contact">
-
-<div className="card">
-  <div className="card-body">
-    <h1>
-      Contact
-    </h1>
+ <div className= "contact">
+  <div class="container">
+    <h1 class="display-4">Contact Me</h1>
+    <p class="lead" style={{textAlign: "center"}}>Allow one to two business days!</p>
   </div>
 
-  <form>
-    <div className="form-group">
-      <label for="exampleInputName">Name</label>
-      <input type="name" className="form-control" id="exampleInputName" />
-    </div>
-    <div className="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input
-        type="email"
-        className="form-control"
-        id="exampleInputEmail1"
-        aria-describedby="emailHelp"
-      />
-      <small id="emailHelp" className="form-text text-muted"
-        >We'll never share your email with anyone else.</small
-      >
-    </div>
-    <div className="form-group">
-      <label for="exampleFormControlMessage">Message</label>
-      <textarea
-        className="form-control"
-        id="exampleFormControlMessage"
-      ></textarea>
-    </div>
-
-    <button type="submit" className="btn btn-success">Submit</button>
-  </form>
+     <div className="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
 </div>
+ 
     );
 }
 

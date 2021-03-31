@@ -2,30 +2,30 @@ import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
-import Landing from "./components/Landing";
 import About from "./components/About";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'semantic-ui-css/semantic.min.css'
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-
+import Home from "./components/Home";
+import "./App.css"
 function App() {
   return (
     <Router>
-    <div>
+    <div >
       <Navbar />
       <Switch>
-      <Route exact path="/">
-      <Landing />
-      </Route>
-      <Route exact path ="/About">
+      <Route path ="/About">
       <About />
       </Route>
-      <Route exact path = "/Portfolio">
+      <Route path = "/Portfolio">
         <Portfolio />
       </Route>
-      <Route exact path = "/Contact">
+      <Route path = "/Contact">
         <Contact />
+      </Route>
+      <Route path="/">
+      <Home />
       </Route>
       </Switch>
     </div>

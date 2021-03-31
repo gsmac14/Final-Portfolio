@@ -14,12 +14,12 @@ return(
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <BrowserRouter>
+      
         <Link to= "/About" className={ window.location.pathname === "/About" ?"nav-link active" : "nav-link"} aria-current="page">About</Link>
         <Link to= "/Portolio" className={ window.location.pathname === "/Portfolio" ?"nav-link active" : "nav-link"}>Portfolio</Link>
         <Link to= "/Contact" className={ window.location.pathname === "/Contact" ?"nav-link active" : "nav-link"}>Contact</Link>
         
-        </BrowserRouter>
+     
         {/* <Link className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</Link> */}
       </div>
     </div>

@@ -4,11 +4,15 @@ import DocToGo from "../../assest/images/DocToGo.png";
 import Project1 from "../../assest/images/project1.PNG";
 import Weather from "../../assest/images/Weather.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "."
+import Github from "../../assest/images/github.png";
 
 function Portfolio(){
     return(
+      <div>
+        <h1 style={{fontSize: 50, marginTop: 30 }}>Portfolio</h1>
+
 <div className="row row-cols-1 row-cols-md-2 g-4" style={{padding: 100}}>
+
   <div className="col"style={{paddingBottom : 100}} >
     <div className="card h-100" >
       <img src={BurgerApp} className="card-img-top" alt="burger"/>
@@ -69,11 +73,15 @@ function Portfolio(){
       <a
       class="nav-link"
       href="https://github.com/gsmac14/WeatherAPI"
-      ><i class="fab fa-github"></i>Github</a>
+      ><img
+      src={Github}
+      style={{ height: 50, width: 50, }}
+    /> </a>
       </div>
     </div>
   </div>
 </div>
+      </div>
     );
 }
 

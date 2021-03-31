@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./style.css"
 import css from "../../assest/images/css.png";
 import selfie from "../../assest/images/selfie.png";
 import html from "../../assest/images/html.png";
@@ -15,15 +15,20 @@ function Home (){
 
   <div className="container home">
     <h1 className="display-4"></h1>
-    <img src={selfie} ></img>
-    <div className="container px-4" style ={{float:"right"}}>
-      <div className="row gx-5">
+    <img src={selfie} style={{height: 300, width: 300}}></img>
+    <div className="container" style ={{float: "right"}}>
+      <div className="row row-cols-3">
         <div className="p-3">
-        <img src={css}></img>
+        <img src={css} style={{height: 100, width: 100}}></img>
         </div>
         <div className="col">
           <div className="p-3">
-            <img src={html}></img>
+            <img src={html} style={{height: 100, width: 100}} ></img>
+          </div>
+        </div>
+        <div className="col">
+          <div className="p-3">
+            <img src={jquery} style={{height: 100, width: 100}} ></img>
           </div>
         </div>
       </div>

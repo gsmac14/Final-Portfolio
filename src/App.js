@@ -24,7 +24,7 @@ function App() {
       <Route path = "/Contact">
         <Contact />
       </Route>
-      <Route path="/Home">
+      <Route path="/">
       <Home />
       </Route>
       </Switch>

@@ -14,68 +14,72 @@ function Portfolio(){
 <div className="row row-cols-1 row-cols-md-2 g-4" style={{padding: 100}}>
 
   <div className="col"style={{paddingBottom : 100}} >
-    <div className="card h-100" >
-      <img src={BurgerApp} className="card-img-top" alt="burger"/>
-      <div className="card-body" >
+    <div className="card h-80" >
+      {/* <img src={BurgerApp} style={{height:300}} className="card-img-top" alt="burger"/> */}
+      <div className="card-body" style={{color:"black", textAlign:"center"}} >
       <h5 class="card-title">Burger App</h5>
-                    <a
+      <a
       class="nav-link"
       href="https://burgerappgm.herokuapp.com/"
-      >Burger App</a>
+      ><img src={BurgerApp} style={{height:300, width: 300, marginTop: 20, marginLeft: 30}} className="card-img-top" alt="burger"/>
+      </a>
       <a
       class="nav-link"
       href="https://github.com/gsmac14/BurgerApp"
-      ><i class="fab fa-github"></i>Github</a>
+      ><h5 style={{marginLeft: 50}}>GitHub</h5><img src={Github}
+      style={{ height: 50, width: 50, marginLeft:50 }}/></a>
       </div>
     </div>
   </div>
   <div className="col" style={{paddingBottom : 100}}>
     <div className="card h-100 ">
-    <img src={DocToGo} className="card-img-top" alt="doc"/>      
-    <div className="card-body">
+    <div className="card-body" style={{color:"black", textAlign:"center"}}>
     <h5 class="card-title">Doc-To-Go App</h5>
                     <a
       class="nav-link"
       href="https://doctorgo.herokuapp.com/"
-      >Doc-To-Go App</a>
+    ><img src={DocToGo} style={{height:300, width: 300, marginTop: 20, marginLeft: 30}} className="card-img-top" alt="doc"/>      
+      </a>
       <a
       class="nav-link"
       href="https://github.com/gsmac14/DocToGo"
-      ><i class="fab fa-github"></i>Github</a>
+      ><h5 style={{textAlign:"center"}}>GitHub</h5>
+        <img src={Github}
+      style={{ height: 50, width: 50,  marginLeft: 10}}/></a>
       </div>
     </div>
   </div>
   <div className="col">
     <div className="card h-100">
-    <img src={Project1} className="card-img-top" alt="project"/>       
     <div className="card-body">
-    <h5 class="card-title">Radio Search</h5>
+    <h5 class="card-title" style={{color:"black", textAlign:"center"}}>Radio Search</h5>
                       <a
         class="nav-link"
-        href="https://gsmac14.github.io/Project1/"
-        >Radio App</a>
+        href="https://gsmac14.github.io/Project1/">
+    <img src={Project1} style={{height:300}} className="card-img-top" alt="project"/>       </a>
         <a
         class="nav-link"
         href="https://github.com/gsmac14/Project1"
-        ><i class="fab fa-github"></i>Github</a>
+        ><h5 style={{textAlign:"center"}}>GitHub</h5><img src={Github}
+        style={{ height: 50, width: 50, marginLeft:150}}/></a>
       </div>
     </div>
   </div>
   <div className="col">
     <div className="card h-100">
-    <img src={Weather} className="card-img-top" alt="weather"/>       
     <div className="card-body">
     <h5 class="card-title">Weather App</h5>
                     <a
       class="nav-link"
       href="https://gsmac14.github.io/WeatherAPI/"
-      >Weather App</a>
+    > <img src={Weather} style={{height:300}} className="card-img-top" alt="weather"/>       
+      </a>
       <a
       class="nav-link"
       href="https://github.com/gsmac14/WeatherAPI"
-      ><img
+      ><h5 style={{textAlign:"center"}}>GitHub</h5> <img
       src={Github}
-      style={{ height: 50, width: 50, }}
+      style={{ height: 50, width: 50, marginLeft:150}}
     /> </a>
       </div>
     </div>

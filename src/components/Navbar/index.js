@@ -9,7 +9,6 @@ return(
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
     <div>
-    {/* <a className="navbar-brand">Girverius McFarland</a> */}
     <Link to= "/Home" className={ window.location.pathname === "/Home" ?"nav-link active" : "nav-link"} style={{color: "white"}}>Girverius McFarland</Link>
 
 
@@ -25,7 +24,6 @@ return(
         <Link to= "/Contact" className={ window.location.pathname === "/Contact" ?"nav-link active" : "nav-link"}>Contact</Link>
         
      
-        {/* <Link className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</Link> */}
       </div>
     </div>
   </div>

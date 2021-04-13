@@ -28,25 +28,32 @@ function Contact() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail} >
+    <form className="contact-form" onSubmit={sendEmail} style={{marginLeft: 50, marginRight: 50} } >
       <h1> Contact</h1>
-      <div>
-      <input type="hidden" name="contact_number" />
-      <label>Name</label>
-      <input type="text" name="user_name" class="form-control form-control-lg" placeholder="Name" value={name} onChange={(e) => setName(e.target.value) } />
+      <p style={{textAlign: "center"}}>Please allow 1 to 2 busisness for a response.</p>
+      <div class="form-row" style={{marginTop: 40}}>
+
+      <div class= "col">
+      <input type="hidden" name="contact_number"  />
+      <label style={{fontSize: 20}}>Name or  Company</label>
+      <input type="text" name="user_name" class="form-control"  value={name} onChange={(e) => setName(e.target.value) } />
 
       </div>
-      <div>
+      <div class = "col">
 
-      <label>Email</label>
-      <input type="email" name="user_email" class="form-control form-control-lg" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      <label style={{fontSize: 20}} >Email</label>
+      <input type="email" name="user_email" class="form-control"  value={email} onChange={(e) => setEmail(e.target.value)} />
       </div>
-      <div>
+      </div>
+      <div style={{marginTop: 20, marginBottom: 20}}>
 
-      <label>Message</label>
-      <textarea name="message" class="form-control form-control-lg " placeholder="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
+      <label style={{fontSize: 20}}>Message</label>
+      <textarea name="message" class="form-control form-control-lg "  value={message} onChange={(e) => setMessage(e.target.value)}/>
       </div>
-      <button type="submit" onClick={handleSubmit} class="btn btn-success">Submit</button>
+      <div style={{textAlign: "center"}}>
+
+      <button type="submit" onClick={handleSubmit} href="/" class="btn btn-success btn-lg">Send Message</button>
+      </div>
     </form>
   );
   }

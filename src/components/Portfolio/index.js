@@ -17,7 +17,6 @@ function Portfolio(){
 
 <div className="col"style={{paddingBottom : 100}} >
     <div className="card h-80" >
-      {/* <img src={BurgerApp} style={{height:300}} className="card-img-top" alt="burger"/> */}
       <div className="card-body" style={{color:"black", textAlign:"center"}} >
       <h5 class="card-title">LinkUP App</h5>
       <a

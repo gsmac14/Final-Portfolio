@@ -3,6 +3,7 @@ import BurgerApp from "../../assest/images/BurgerApp.png";
 import DocToGo from "../../assest/images/DocToGo.png";
 import Project1 from "../../assest/images/project1.PNG";
 import Weather from "../../assest/images/Weather.png";
+import Lushcare from '../../assest/images/Lush-Pic.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Github from "../../assest/images/github.png";
 import LinkUp from "../../assest/images/LinkUp.png"
@@ -99,7 +100,26 @@ function Portfolio(){
       href="https://github.com/gsmac14/WeatherAPI"
       ><h5 style={{textAlign:"center"}}>GitHub</h5> <img
       src={Github}
-      style={{ height: 50, width: 50, marginLeft:150}}
+      style={{ height: 50, width: 50, marginLeft:200}}
+    /> </a>
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+    <div className="card-body">
+    <h5 class="card-title">Lush Care WebPage</h5>
+                    <a
+      class="nav-link"
+      href=" https://lushcareagency.com/"
+    > <img src={Lushcare} style={{height:300}} className="card-img-top" alt="weather"/>       
+      </a>
+      <a
+      class="nav-link"
+      href="https://github.com/gsmac14/lush-care"
+      ><h5 style={{textAlign:"center"}}>GitHub</h5> <img
+      src={Github}
+      style={{ height: 50, width: 50, marginLeft:200}}
     /> </a>
       </div>
     </div>
